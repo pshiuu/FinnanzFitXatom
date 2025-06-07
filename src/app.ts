@@ -1,6 +1,8 @@
 import { onReady } from "@xatom/core";
 import { helloWorldRoutes } from "./routes";
 import "./animations";
+import { Header } from "./components/Header";
+import "./styles/header.css";
 
 onReady(() => {
   helloWorldRoutes();
@@ -46,3 +48,6 @@ class FinanzFit {
 
 // Initialisierung
 new FinanzFit();
+
+// Initialize Header
+new Header();
