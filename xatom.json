@@ -1,5 +1,5 @@
 {
-  "webflowSubdomain": "finanzfit-ef81a9",
+  "webflowSubdomain": "finanzfit-neu",
   "port": 3000,
   "source": "./src/app.ts",
   "dist": "./dist",

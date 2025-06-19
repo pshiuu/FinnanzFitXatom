@@ -139,11 +139,9 @@ const videoGalleryEmbed = `
   filter: drop-shadow(0 2px 8px rgba(0,0,0,0.25));
 }
 
-@media (max-width: 900px) {
+@media (max-width: 991px) {
   .mansory-grid {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 28px 16px;
-    padding: 28px 8px 36px 8px;
+    display: none;
   }
   .section_gallery10 h2 {
     font-size: 2rem;
@@ -151,9 +149,7 @@ const videoGalleryEmbed = `
 }
 @media (max-width: 600px) {
   .mansory-grid {
-    grid-template-columns: 1fr;
-    gap: 18px;
-    padding: 12px 2px 24px 2px;
+    display: none;
   }
   .section_gallery10 h2 {
     font-size: 1.5rem;

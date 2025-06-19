@@ -1,6 +1,5 @@
 import { onReady } from "@xatom/core";
 import { helloWorldRoutes } from "./routes";
-import "./animations";
 import { Header } from "./components/Header";
 import "./styles/header.css";
 
